@@ -1,0 +1,17 @@
+#using WHILE
+n=7 
+stop=1
+faktorial=1
+while stop<=n:
+  faktorial=faktorial*stop
+  stop=stop+1
+print(faktorial)
+
+#using FOR
+n=7 
+stop=1
+faktorial=1
+for i in range(n):
+  faktorial=faktorial*stop
+  stop=stop+1
+print(faktorial)
